@@ -1,0 +1,41 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "python": {
+        "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "https://82924eb9e1bf42f9be9e78505f2981ba.vfs.cloud9.us-east-2.amazonaws.com/": {
+                    "command": "",
+                    "name": "https://82924eb9e1bf42f9be9e78505f2981ba.vfs.cloud9.us-east-2.amazonaws.com/",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
